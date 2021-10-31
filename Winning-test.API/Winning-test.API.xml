@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Winning-test.API</name>
+    </assembly>
+    <members>
+        <member name="F:Winning_test.Controllers.WinningProductsController.configuration">
+            <summary>
+            The configuration
+            </summary>
+        </member>
+        <member name="F:Winning_test.Controllers.WinningProductsController._winningProductsService">
+            <summary>
+            Battleship Service
+            </summary>
+        </member>
+        <member name="M:Winning_test.Controllers.WinningProductsController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Winning_test.Services.Interface.IWinningProductsService)">
+            <summary>
+            Constructor for the controller
+            </summary>
+            <param name="configuration"></param>
+            <param name="winningProductsService"></param>
+        </member>
+        <member name="M:Winning_test.Controllers.WinningProductsController.GetProducts(System.String)">
+            <summary>
+            Get All products with/without filter
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Winning_test.Controllers.WinningProductsController.GetProductsByPrice(System.Decimal,System.Decimal)">
+            <summary>
+            Get Products by price
+            </summary>
+            <param name="priceMin"></param>
+            <param name="pricemax"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Winning_test.Controllers.WinningProductsController.GetProductsByFantasticAttribute(System.String)">
+            <summary>
+            Get products by fantastic attribute
+            </summary>
+            <param name="fantasticValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Winning_test.Controllers.WinningProductsController.GetProductsByProductRating(System.Decimal,System.Decimal)">
+            <summary>
+            
+            </summary>
+            <param name="min"></param>
+            <param name="max"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

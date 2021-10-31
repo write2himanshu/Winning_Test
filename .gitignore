@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Winning-test.API/bin/Debug/netcoreapp3.1
+/Winning-test.API/obj
+/Winning-test.Common/obj
+/Winning-test.Common/bin/Debug/netcoreapp3.1
+/Winning-test.DAL/bin/Debug/netcoreapp3.1
+/Winning-test.DAL/obj
+/Winning-test.Tests/bin/Debug/netcoreapp3.1
+/Winning-test.Tests/obj

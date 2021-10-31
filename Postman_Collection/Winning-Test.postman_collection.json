@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "ae5e6cf7-1000-4899-933e-f59dd437fb12",
+		"name": "Winning-Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44375/GetProducts",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/GetProducts",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"GetProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44375/GetProducts?filter={'id':100}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/GetProducts?filter={'id':100}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"GetProducts"
+					],
+					"query": [
+						{
+							"key": "filter",
+							"value": "{'id':100}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44375/GetProductsByPrice?priceMin=100&pricemax=200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/GetProductsByPrice?priceMin=100&pricemax=200",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"GetProductsByPrice"
+					],
+					"query": [
+						{
+							"key": "priceMin",
+							"value": "100"
+						},
+						{
+							"key": "pricemax",
+							"value": "200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44375/GetProductsByRating?min=2&max=4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/GetProductsByRating?min=2&max=4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"GetProductsByRating"
+					],
+					"query": [
+						{
+							"key": "min",
+							"value": "2"
+						},
+						{
+							"key": "max",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44375/GetProductsByAttribute?fantasticValue=true",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/GetProductsByAttribute?fantasticValue=true",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"GetProductsByAttribute"
+					],
+					"query": [
+						{
+							"key": "fantasticValue",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
