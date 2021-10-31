@@ -2,7 +2,7 @@
 Application serves the Get request to Products collection in MongoDb
 
 ## Branch
-Master branch is the main branch
+Master branch is the default branch
 
 ## API
 Folder Winning_Test/Winning-test.API contains the API solution built in DotNet core 3.1
